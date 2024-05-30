@@ -1,0 +1,12 @@
+student (id, name, roll, class, phone, email, address) (Data Table)
+
+result (id, roll, subject, marks, grade) (Data Table)
+
+notice (id, subject, description, image) (Data Table)
+
+
+=============CRUD==========
+
+Create=>
+
+INSERT INTO students (name, roll, class, phone, email, address) VALUES ('Abdul', 7, 'eight', '012345433', 'shgf@gmail.com', 'Uttara, Dhaka');
